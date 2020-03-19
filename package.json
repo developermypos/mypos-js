@@ -1,11 +1,9 @@
 {
-  "name": "mypos",
+  "name": "@mypos-ltd/mypos",
   "version": "0.0.4",
-  "description": "",
+  "description": "This repository provides a native NodeJS SDK, which enables to integrate your solution with myPOS APIs such as Checkout, Transactions, Devices, Webhooks and more to come.",
   "main": "mypos.js",
-  "scripts": {
-
-  },
+  "scripts": {},
   "keywords": [
     "mypos"
   ],
@@ -17,5 +15,17 @@
     "request": "^2.88.0",
     "uuid": "^3.3.3",
     "node-rsa": "^1.0.6"
-  }
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developermypos/mypos-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/developermypos/mypos-js/issues"
+  },
+  "homepage": "https://github.com/developermypos/mypos-js#readme"
 }

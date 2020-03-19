@@ -37,7 +37,7 @@ This repository provides a native NodeJS SDK, which enables to integrate your so
 ## Installation
 
 ### Install via NPM package manager
-```npm install mypos-js```
+```npm i @mypos-ltd/mypos```
 
 ## Checkout
 Before calling any of the Checkout API methods, you need to initialize the SDK.
