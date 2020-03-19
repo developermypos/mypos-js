@@ -1,6 +1,6 @@
 {
   "name": "@mypos-ltd/mypos",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "This repository provides a native NodeJS SDK, which enables to integrate your solution with myPOS APIs such as Checkout, Transactions, Devices, Webhooks and more to come.",
   "main": "mypos.js",
   "scripts": {},
