@@ -42,7 +42,7 @@ This repository provides a native NodeJS SDK, which enables to integrate your so
 ## Checkout
 Before calling any of the Checkout API methods, you need to initialize the SDK.
 ```javascript
-const mypos = require('mypos')({
+const mypos = require('@mypos-ltd/mypos')({
     isSandbox: true,
     logLevel: 'debug',                  // Logging level
     checkout: {                         // Checkout API specific configuration

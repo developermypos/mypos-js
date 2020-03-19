@@ -3,7 +3,7 @@ const uuidv4 = require('uuid/v4');
 const http = require('http');
 const path = require('path');
 
-const mypos = require('mypos')({
+const mypos = require('@mypos-ltd/mypos')({
     isSandbox: true,
     logLevel: 'debug',
     checkout: {

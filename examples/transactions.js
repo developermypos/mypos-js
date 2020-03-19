@@ -1,4 +1,4 @@
-const mypos = require('mypos')({
+const mypos = require('@mypos-ltd/mypos')({
     isSandbox: true,
     logLevel: 'debug',
     apiKey: 'CLIENT_ID',
