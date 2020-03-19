@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Example</title>
+    </head>
+    <body>
+        <form method="post" action="/purchase">
+            <button type="submit">Purchase</button>
+        </form>
+        <form method="post" action="/refund">
+            <input type="text" name="trnRef" placeholder="Transaction reference"/>
+            <button type="submit">Refund</button>
+        </form>
+        <form method="post" action="/reversal">
+            <input type="text" name="trnRef" placeholder="Transaction reference"/>
+            <button type="submit">Reversal</button>
+        </form>
+        <form method="post" action="/getPaymentStatus">
+            <input type="text" name="orderId" placeholder="Order Id"/>
+            <button type="submit">Get Payment Status</button>
+        </form>
+    </body>
+</html>

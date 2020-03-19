@@ -1,0 +1,21 @@
+{
+  "name": "mypos",
+  "version": "0.0.4",
+  "description": "",
+  "main": "mypos.js",
+  "scripts": {
+
+  },
+  "keywords": [
+    "mypos"
+  ],
+  "author": "myPOS",
+  "license": "ISC",
+  "dependencies": {
+    "enum": "^2.5.0",
+    "net": "^1.0.2",
+    "request": "^2.88.0",
+    "uuid": "^3.3.3",
+    "node-rsa": "^1.0.6"
+  }
+}
